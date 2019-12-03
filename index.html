@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logo_original" src="./assets/logo_animo_original.jpg" />
+            <nav class="menu_principal">
+                <ul class="lista_principal">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Soluções</a></li>
+                    <li><a id="selecionado" href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="topo">
+            <h1>Converse Conosco</h1>
+        </div>
+        <h2>Entre em contato com um consultor ou marque uma visita.</h2>
+        <div class="content">
+            <div class="formulario">
+                <form action="form.php" method="POST">
+                    <p><input type="text" name="nome" id="a" placeholder="Nome" size=20 /></p>
+                    <p><input type="email" name="email" id="b" placeholder="E-mail" size=20 /></p>
+                    <p><input type="number" name="telefone" id="c" placeholder="Telefone" size=20 /></p>
+                    <textarea rows="5" cols="10" placeholder="Mensagem" maxlength="100"></textarea>
+                    <p>
+                        <select>
+                            <option disabled selected>Como nos conheceu?</option>
+                            <option>Facebook</option>
+                            <option>LinkedIn</option>
+                            <option>Instagram</option>
+                            <option>Outro</option>
+                        </select>
+                    </p>
+                    <button class="botao" type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="informacao">
+                    <h3>Telefone:</h3>
+                    <h3>(21) 00000-0000</h3>
+                    
+                    <h3>E-mail: contato@animoconsultoria.com.br</h3>
+                    
+                    <h3>Endereço:</h3>
+                    <h3>Rua Gastão Gonçalves, 79, Santa Rosa - Niterói RJ, 24240-030</h3>
+                    
+                    <h3>Horários:</h3>
+                    <h3>Segunda á sexta </h3>
+                    <h3>De 13:00 ás 18:00</h3>
+                    
+                    <h3>Nos acompanhe nas redes sociais e saiba mais sobre nossas soluções e eventos:</h3>
+                    <div class=icones>
+                        <a href="https://pt-br.facebook.com/animoconsultoriapage/" target="_blank">
+                            <img src="./assets/face.svg" />
+                        </a>
+                        <a href="https://www.instagram.com/animoconsultoria/" target="_blank">
+                            <img src="./assets/ig.svg" />
+                        </a>
+                        <a href="https://www.linkedin.com/company/animoconsultoria/" target="_blank">
+                            <img src="./assets/in.svg" />
+                        </a>
+                    </div>
+
+            </div>
+            <img id="mapa" src="./assets/mapa.png" />
+        </div>
+        <footer>
+            <div class=footer_content>
+                <img class=logo_footer src="./assets/logo_animo_branca.png" />
+                <div class="menu_footer"> 
+                    <p>Home</p>
+                    <p>Soluções</p>
+                    <p>Contato</p>
+                </div>
+                <div class="redes_sociais">
+                    <p>Siga-nos:</p>
+                    <p>
+                        <img src="./assets/face.svg" />
+                        <img src="./assets/ig.svg" />
+                        <img src="./assets/in.svg" />
+                    </p>
+                </div>
+                <div class="parceiros">
+                    <p>Parceiros:</p>
+                    <p><img class="lasalle" src="./assets/logo_lasalle.png" /></p>
+                    <p><img class="riojunior" src="./assets/logo_riojunior.png" /></p>
+                </div>
+                <div class="endereco">
+                    <p>Ânimo Consultoria | CNPJ: 00.000.000/0000-00</p>
+                    <p>Rua Gastão Gonçalves, 79, Santa Rosa - Niterói RJ, 24240-030</p>
+                    <p>Telefones: (21) 00000-0000 | (21) 0000-0000</p>
+                    
+                </div>
+            </div>
+            <h4 class=copyrigth>© 2019 - Site desenvolvido por Ânimo Consultoria</h4>
+        </footer>
+        
+    </body>
+</html>

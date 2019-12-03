@@ -1,0 +1,213 @@
+* {
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding-top: 70px;  
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 70px;
+    box-shadow: -0 2px 2px -2px  gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+.menu_principal{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    right: 72px;
+    top: 34px;
+}
+
+.lista_principal{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 346px;
+}
+
+.lista_principal li:hover a{
+    color: #00AFD1;
+}
+
+.lista_principal li a{
+    color: #000;
+    text-decoration: none;    
+}
+
+.logo_original{
+    width: 120px;
+}
+
+#selecionado{
+    color: #00AFD1;
+}
+
+.topo{
+    height: 80px;
+    background-image: url("./assets/topo.jpg");
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.topo h1{
+    font-size: 24px;
+    color: #FABF2C;
+    padding: 0 20px;
+    display: flex;
+}
+
+h2{
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #FABF2C;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.formulario{
+    width: 390px;     
+}
+
+.formulario input{
+    width: 100%;
+    height: 30px;
+    padding: 0 5px;
+    border: 2px solid #00AFD1;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario textarea{
+    width: 100%;
+    height: 220px;
+    padding: 0 5px;
+    border: 2px solid #00AFD1;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-top: 5px;
+    resize: none;
+}
+
+.formulario select{
+    width: 100%;
+    height: 30px;
+    padding: 0 5px;
+    border: 2px solid #00AFD1;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.informacao{
+    width: 390px;
+}
+
+.informacao h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#mapa{
+    width: 390px;
+}
+
+button{
+    display: inline-block ;
+    width: 90px;
+    height: 30px;   
+    border-radius: 15px; 
+    cursor: pointer;
+    background-color: #FABF2C;
+    color: #fff;
+    appearance: none;
+    border-color: #FABF2C;
+    font-weight: 500;
+}
+
+.icones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 154px;
+}
+
+.icones img{
+    width: 30px;
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(0,0,0,0.68);
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px;
+    height: 153px;
+}
+
+.footer_content p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.redes_sociais p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94px;
+}
+
+.redes_sociais img{
+    width: 20px;
+}
+
+.logo_footer{
+    width: 120px;
+}
+
+.lasalle{
+    width: 85px;
+}
+
+.riojunior{
+    width: 120px;
+}
+
+.endereco{
+    text-align: right;
+    width: 385; 
+}
+
+.copyrigth{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    padding-bottom: 20px;
+    margin: 0;
+}
